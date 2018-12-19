@@ -37,11 +37,8 @@ span{
 }
 
 #media a{
-
-}
-
-#media a::after{
-  content: "facebook";
+  color: gray;
+  font-size: 25px;
 }
 
 
@@ -73,7 +70,7 @@ span{
 }
 
 #media{
-  height: 100px;
+  padding-top: 30px;
 }
 
 #movies{
@@ -82,7 +79,7 @@ span{
   font-size: 18px;
 }
 
-#movies::after{
+#movies::after, #media::after{
   content: "";
   display: block;
   clear: both;
