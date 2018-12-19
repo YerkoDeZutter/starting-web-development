@@ -36,6 +36,14 @@ span{
   background-color: lightgray;
 }
 
+#media a{
+
+}
+
+#media a::after{
+  content: "facebook";
+}
+
 
 /*IMAGES*/
 
